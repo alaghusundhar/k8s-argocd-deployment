@@ -8,5 +8,11 @@ metadata:
   namespace: argocd
 data:
   repositories: |
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-dept-service-deployment.git
+      type: git
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-emp-service-deployment.git
+      type: git
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-org-service-deployment.git
+      type: git
     - url: https://github.com/subhakar-ci-cd-tools/k8s-argocd-deployment
       type: git
