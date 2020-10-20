@@ -10,3 +10,5 @@ data:
   repositories: |
     - url: https://github.com/subhakar-ci-cd-tools/k8s-argocd-deployment
       type: git
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-org-service-deployment
+      type: git
