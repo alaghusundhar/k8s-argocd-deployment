@@ -12,8 +12,6 @@ spec:
     path: overlays/development
     repoURL: 'https://github.com/subhakar-ci-cd-tools/k8s-argocd-deployment'
     targetRevision: HEAD
-    directory:
-      recurse: true
   project: default
   syncPolicy:
     automated:
