@@ -12,3 +12,9 @@ data:
       type: git
     - url: https://github.com/subhakar-ci-cd-tools/spring-boot-org-service-deployment
       type: git
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-emp-service-deployment
+      type: git
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-dept-service-deployment
+      type: git
+    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-mongo-db-deployment.git
+      type: git

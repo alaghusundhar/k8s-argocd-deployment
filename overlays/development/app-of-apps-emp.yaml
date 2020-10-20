@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-of-apps-org
+  name: app-of-apps-emp
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: overlays/development/organization
+    path: overlays/development/employee
     repoURL: 'https://github.com/subhakar-ci-cd-tools/k8s-argocd-deployment'
     targetRevision: HEAD
     directory:
