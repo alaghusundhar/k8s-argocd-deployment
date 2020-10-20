@@ -4,7 +4,9 @@ bases:
   - ../../base
 resources:
   - app-argocd.yaml
-  - app-of-apps.yaml
+  - app-of-apps-org.yaml
+  - app-of-apps-dept.yaml
+  - app-of-apps-emp.yaml
 patchesStrategicMerge:
   - argocd-server-service.yaml
   - argocd-configmap.yaml
