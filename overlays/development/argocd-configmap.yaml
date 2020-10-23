@@ -8,13 +8,17 @@ metadata:
   namespace: argocd
 data:
   repositories: |
-    - url: https://github.com/subhakar-ci-cd-tools/k8s-argocd-deployment
+    - url: https://github.com/subhakar-ci-cd/k8s-argocd-deployment
       type: git
-    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-org-service-deployment
+    - url: https://github.com/subhakar-ci-cd/spring-boot-org-service-deployment
       type: git
-    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-emp-service-deployment
+    - url: https://github.com/subhakar-ci-cd/spring-boot-emp-service-deployment
       type: git
-    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-dept-service-deployment
+    - url: https://github.com/subhakar-ci-cd/spring-boot-dept-service-deployment
       type: git
-    - url: https://github.com/subhakar-ci-cd-tools/spring-boot-mongo-db-deployment.git
+    - url: https://github.com/subhakar-ci-cd/spring-boot-mongo-db-deployment.git
+      type: git
+    - url: https://github.com/subhakar-ci-cd/metallb-system.git
+      type: git
+    - url: https://github.com/subhakar-ci-cd/istio-operator-kustomize.git
       type: git
