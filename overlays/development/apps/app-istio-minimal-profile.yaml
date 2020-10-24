@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-istio-default-profile
+  name: app-istio-minimal-profile
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: profiles/default
+    path: profiles/minimal
     repoURL: 'https://github.com/subhakar-ci-cd/istio-operator-kustomize.git'
     targetRevision: HEAD
   project: default
