@@ -9,7 +9,7 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: profiles/default.yaml
+    path: profiles/default
     repoURL: 'https://github.com/subhakar-ci-cd/istio-operator-kustomize.git'
     targetRevision: HEAD
   project: default
