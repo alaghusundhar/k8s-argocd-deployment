@@ -10,7 +10,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: deploy
-    repoURL: 'https://github.com/subhakar-ci-cd/istio-operator-kustomize.git'
+    repoURL: 'https://github.com/subhakar-ci-cd/istio-operator-helm.git'
     targetRevision: HEAD
   project: default
   syncPolicy:
