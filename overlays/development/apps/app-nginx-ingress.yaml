@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-metallb-system
+  name: app-istio-operator
   namespace: argocd
 spec:
   destination:
@@ -9,8 +9,8 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: .
-    repoURL: 'https://github.com/subhakar-ci-cd/metallb-system'
+    path: base
+    repoURL: 'https://github.com/subhakar-ci-cd/ingress-nginx-kustomize'
     targetRevision: HEAD
   project: default
   syncPolicy:
