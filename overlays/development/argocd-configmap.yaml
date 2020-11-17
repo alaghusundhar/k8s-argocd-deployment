@@ -16,3 +16,5 @@ data:
       type: git
     - url: https://github.com/subhakar-ci-cd/istio-operator-kustomize
       type: git
+    - url: https://github.com/subhakar-ci-cd/helm-charts
+      type: git
