@@ -9,7 +9,7 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: base
+    path: overlays/development
     repoURL: 'https://github.com/subhakar-ci-cd/ingress-nginx-kustomize'
     targetRevision: HEAD
   project: default
