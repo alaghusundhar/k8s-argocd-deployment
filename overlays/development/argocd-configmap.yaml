@@ -10,9 +10,9 @@ data:
   repositories: |
     - url: https://github.com/subhakar-ci-cd/k8s-argocd-deployment
       type: git
-    - url: https://github.com/subhakar-ci-cd/metallb-system.git
+    - url: https://github.com/subhakar-ci-cd/metallb-system
       type: git
-    - url: https://github.com/subhakar-ci-cd/ingress-nginx-kustomize.git
+    - url: https://github.com/subhakar-ci-cd/ingress-nginx-kustomize
       type: git
-    
-
+    - url: https://github.com/subhakar-ci-cd/istio-operator-kustomize
+      type: git
