@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-istio-operator
+  name: app-nginx-ingress
   namespace: argocd
 spec:
   destination:
