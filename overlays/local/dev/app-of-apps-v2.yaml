@@ -9,7 +9,7 @@ spec:
   source:
     path: app-of-apps/local
     repoURL: 'https://github.com/subhakar-ci-cd/k8s-argocd-apps'
-    targetRevision: master
+    targetRevision: HEAD
     directory:
      recurse: true
   project: default
