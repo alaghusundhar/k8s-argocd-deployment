@@ -1,20 +1,18 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-of-apps-v2
+  name: app-of-apps-prod-v2
 spec:
   destination:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: app-of-apps/local
+    path: app-of-apps/dc2/production
     repoURL: 'https://github.com/subhakar-ci-cd/k8s-argocd-apps'
     targetRevision: HEAD
     directory:
      recurse: true
-  project: default
   syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
-    syncOptions: []
+   automated:
+     selfHeal: true
+  project: default

@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app-of-apps-v2
+spec:
+  destination:
+    namespace: argocd
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: overlays/dc2/production
+    repoURL: 'https://github.com/subhakar-ci-cd/k8s-argocd-deployment'
+    targetRevision: HEAD
+    directory:
+     recurse: true
+  project: default
+  syncPolicy:
+    automated:
+      selfHeal: true
