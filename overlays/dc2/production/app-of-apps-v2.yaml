@@ -7,7 +7,7 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: overlays/dc2/production
+    path: overlays/dc2/production/app-of-apps
     repoURL: 'https://github.com/subhakar-ci-cd/k8s-argocd-deployment'
     targetRevision: HEAD
     directory:
