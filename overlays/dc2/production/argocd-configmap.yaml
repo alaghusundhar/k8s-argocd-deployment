@@ -8,9 +8,9 @@ metadata:
   namespace: argocd
 data:
   repositories: |
-    - url: https://github.com/subhakar-ci-cd/k8s-argocd-deployment
+    - url: https://github.com/s-u-b-h-a-k-a-r-cicd/k8s-argocd-deployment
       type: git
-    - url: https://github.com/subhakar-ci-cd/metallb-system
+    - url: https://github.com/s-u-b-h-a-k-a-r-cicd/metallb-system
       type: git
-    - url: https://github.com/subhakar-ci-cd/hello-kubernetes-prod-config
+    - url: https://github.com/s-u-b-h-a-k-a-r-cicd/hello-kubernetes-prod-config
       type: git

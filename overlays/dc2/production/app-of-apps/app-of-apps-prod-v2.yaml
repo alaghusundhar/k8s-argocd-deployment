@@ -8,7 +8,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: app-of-apps/dc2/production
-    repoURL: 'https://github.com/subhakar-ci-cd/k8s-argocd-apps'
+    repoURL: 'https://github.com/s-u-b-h-a-k-a-r-cicd/k8s-argocd-apps'
     targetRevision: HEAD
     directory:
      recurse: true
